@@ -29,13 +29,13 @@ Este projeto implementa um Sistema de Cadastro completo em Python, utilizando SQ
 
 O banco de dados possui uma única tabela chamada "Inventory" com os seguintes campos:
 
-*       id: (INTEGER, chave primária autoincrementável)
-*       name: (TEXT, nome do item)
-*       location: (TEXT, local do item na residência)
-*       description: (TEXT, descrição detalhada do item)
-*       brand: (TEXT, marca do item)
-*       date_of_purchase: (TEXT, data de compra do item)
-*       purchase_value: (REAL, valor de compra do item)
+       id: (INTEGER, chave primária autoincrementável)
+       name: (TEXT, nome do item)
+       location: (TEXT, local do item na residência)
+       description: (TEXT, descrição detalhada do item)
+       brand: (TEXT, marca do item)
+       date_of_purchase: (TEXT, data de compra do item)
+       purchase_value: (REAL, valor de compra do item)
 Considerações Adicionais
 
 Este projeto oferece uma base sólida para gerenciar inventários domésticos de forma organizada e eficiente.
