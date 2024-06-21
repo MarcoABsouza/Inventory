@@ -1,38 +1,38 @@
-# Sistema de Cadastro
+# Inventory Management System
 
-## Descrição
+## Description
 
-Este projeto implementa um Sistema de Cadastro completo em Python, utilizando SQLite para gerenciamento de dados e Tkinter para a criação de uma interface gráfica intuitiva. O sistema permite aos usuários cadastrar, visualizar, atualizar e excluir itens do inventário de sua residência, além de realizar pesquisas por itens específicos.
+This project implements a comprehensive Inventory Management System in Python, utilizing SQLite for data management and Tkinter for creating an intuitive graphical interface. The system allows users to add, view, update, and delete items in their home inventory, as well as search for specific items.
 
-## Funcionalidades
+## Features
 
-*   Banco de Dados:
-        SQLite utilizado para criar e gerenciar o banco de dados local.
-        Estrutura da tabela "Inventory" com campos para nome, localização, descrição, marca, data de compra e valor do item.
-        Implementação das operações CRUD (Criar, Ler, Atualizar, Excluir) para itens do inventário.
-        Integração eficiente com SQLite através de conexões e cursores para consultas e atualizações.
-        Gerenciamento de transações para garantir a consistência dos dados.
+*   Database:
+        SQLite used to create and manage the local database.
+        "Inventory" table structure with fields for item name, location, description, brand, purchase date, and purchase value.
+        Implementation of CRUD (Create, Read, Update, Delete) operations for inventory items.
+        Efficient integration with SQLite using connections and cursors for queries and updates.
+        Transaction management to ensure data consistency.
 
-*   Interface Gráfica:
-        Interface amigável e intuitiva desenvolvida com Tkinter.
-        Campos de entrada ("Entry") para inserção e edição de dados dos itens.
-        Botões ("Button") para realizar as operações CRUD e pesquisar itens.
+*   Graphical Interface:
+        User-friendly and intuitive interface developed with Tkinter.
+        Entry fields for adding and editing item data.
+        Buttons for performing CRUD operations and searching for items.
 
-*   Operações Disponíveis:
-        Inserir Item: Adiciona um novo item ao inventário preenchendo todos os campos obrigatórios.
-        Visualizar Itens: Lista todos os itens presentes no inventário com suas respectivas informações.
-        Atualizar Item: Edita as informações de um item selecionado, atualizando os campos conforme a necessidade.
-        Excluir Item: Remove um item específico do inventário após confirmação do usuário.
-        Pesquisar Item: Busca um item específico pelo ID e retorna seus dados.
+*   Available Operations:
+        Add Item: Adds a new item to the inventory by filling in all required fields.
+        View Items: Lists all items present in the inventory along with their respective information.
+        Update Item: Edits the information of a selected item, updating the fields as needed.
+        Delete Item: Removes a specific item from the inventory after user confirmation.
+        Search Item: Searches for a specific item by ID and returns its details.
 
-## Estrutura do Banco de Dados
+## Database Structure
 
-O banco de dados possui uma única tabela chamada "Inventory" com os seguintes campos:
+The database has a single table called "Inventory" with the following fields:
 
-       id: (INTEGER, chave primária autoincrementável)
-       name: (TEXT, nome do item)
-       location: (TEXT, local do item na residência)
-       description: (TEXT, descrição detalhada do item)
-       brand: (TEXT, marca do item)
-       date_of_purchase: (TEXT, data de compra do item)
-       purchase_value: (REAL, valor de compra do item)
+        id: (INTEGER, auto-incrementing primary key)
+        name: (TEXT, item name)
+        location: (TEXT, location of the item in the residence)
+        description: (TEXT, detailed description of the item)
+        brand: (TEXT, brand of the item)
+        date_of_purchase: (TEXT, date of purchase of the item)
+        purchase_value: (REAL, purchase value of the item)
