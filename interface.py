@@ -189,7 +189,7 @@ def search():
 
 
 """ OPEN IMAGE """
-app_img  = Image.open('/Users/mabds/Desktop/Portfolio/inventory/images/Inventory.png')
+app_img  = Image.open('/inventory/images/Inventory.png')
 app_img = app_img.resize((45, 45))
 app_img = ImageTk.PhotoImage(app_img)
 
@@ -241,7 +241,7 @@ e_search.place(x=600, y=25)
 
 """ BUTTONS TAHT WILL PERFORM THE CRUD FUNCTIONS """
 # Button INSERT
-img_add  = Image.open('/Users/mabds/Desktop/Portfolio/inventory/images/add.png')
+img_add  = Image.open('/inventory/images/add.png')
 img_add = img_add.resize((20, 20))
 img_add = ImageTk.PhotoImage(img_add)
 
@@ -249,7 +249,7 @@ button_insert = Button(frameMiddle,command=insert,image=img_add, compound=LEFT, 
 button_insert.place(x=330, y=10)
 
 # Button Update
-img_update  = Image.open('/Users/mabds/Desktop/Portfolio/inventory/images/update.png')
+img_update  = Image.open('/inventory/images/update.png')
 img_update = img_update.resize((20, 20))
 img_update = ImageTk.PhotoImage(img_update)
 
@@ -258,7 +258,7 @@ button_update.place(x=330, y=50)
 
 
 # Button Delete
-img_delete  = Image.open('/Users/mabds/Desktop/Portfolio/inventory/images/delete.png')
+img_delete  = Image.open('/inventory/images/delete.png')
 img_delete = img_delete.resize((20, 20))
 img_delete = ImageTk.PhotoImage(img_delete)
 button_delete = Button(frameMiddle,command=delete, image=img_delete, compound=LEFT, anchor=NW, text="Delete".upper(), width=95, overrelief=RIDGE,  font=('ivy 8'),bg=co1, fg=co0)
@@ -266,7 +266,7 @@ button_delete.place(x=330, y=90)
 
 
 # Button view item
-img_search = Image.open('/Users/mabds/Desktop/Portfolio/inventory/images/search.png')
+img_search = Image.open('/inventory/images/search.png')
 img_search = img_search.resize((20,20))
 img_search = ImageTk.PhotoImage(img_search)
 button_search = Button(frameUp,command=search,image=img_search, compound=LEFT, anchor=NW, text="Search".upper(), width=95, overrelief=RIDGE,  font=('ivy 8'),bg=co1, fg=co0)
