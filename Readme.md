@@ -36,3 +36,20 @@ The database has a single table called "Inventory" with the following fields:
         brand: (TEXT, brand of the item)
         date_of_purchase: (TEXT, date of purchase of the item)
         purchase_value: (REAL, purchase value of the item)
+
+## Running the Inventory Management System
+
+* Installation:
+
+        Clone or Download the Project
+        Install Required Libraries
+
+* Runing the Program 
+
+        Create the Database:
+
+            python3 db.py
+
+        Run the main program:
+
+            python3 main.py
