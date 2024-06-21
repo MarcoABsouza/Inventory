@@ -36,9 +36,3 @@ O banco de dados possui uma única tabela chamada "Inventory" com os seguintes c
        brand: (TEXT, marca do item)
        date_of_purchase: (TEXT, data de compra do item)
        purchase_value: (REAL, valor de compra do item)
-Considerações Adicionais
-
-Este projeto oferece uma base sólida para gerenciar inventários domésticos de forma organizada e eficiente.
-O sistema pode ser facilmente adaptado para atender às necessidades específicas de diferentes usuários.
-A documentação detalhada e o código-fonte completo facilitam a compreensão e o uso do projeto.
-
